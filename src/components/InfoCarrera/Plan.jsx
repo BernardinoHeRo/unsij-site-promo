@@ -160,6 +160,7 @@ const Plan = () => {
                             <FaPlusCircle />
                         }
                     </button>
+                    
                     <AnimatePresence>
                         {activeQuestion === q.id && (
                             <motion.div
